@@ -1,3 +1,6 @@
+// ***************************   conversion    ******************
+
+
 /*
 console.log("abhay");
 console.error("conversion_and_operattion")
@@ -29,6 +32,8 @@ console.log(typeof (changebool));  // 0/1
 console.log(changebool)
 */
 
+
+/*
 console.log(typeof null);
 console.log(typeof undefined);
 
@@ -46,3 +51,23 @@ strnum = "32er"
 console.log(typeof ("strnum")); //it is a string we chage in number
 strnumchange = Number (strnum);
 console.log(strnumchange);   //NaN
+
+*/
+
+
+
+// *****************     Operration   ******************
+
+/*
+console.log(2+2);
+console.log(2-2);
+console.log(2*2);
+console.log(2/2);
+console.log(2**3);
+console.log(2%3);
+console.log(2%5);
+console.log(3%2);
+
+*/
+
+

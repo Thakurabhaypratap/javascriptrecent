@@ -1,10 +1,12 @@
+/*
+
 "use strict" ; //treat all js code as newer version it is bydefault
 
 alert(3+3);
 
 console.error("anything we can write");
 
-
+*/
 
 
 
@@ -19,3 +21,48 @@ console.error("anything we can write");
 
 
 
+// non premitive datatype
+// object , array , function
+
+
+
+
+/*
+
+
+
+// Big Int
+
+const biginteger = 8798455098365349867
+const bigintege = 8798455098365349867n
+console.log(biginteger);
+console.log(typeof (biginteger))
+console.log(typeof (bigintege))
+
+id = Symbol('123')
+id2 = Symbol('123')
+console.log(id==id2) //false because symbolw always store unique veriables
+console.log(id)
+
+arry1 = ["abhay" , "ajit " , "thakur" , "mitisha"]
+
+
+// object
+let obj = {
+    name : "abhay",
+    middle : "pratap",
+}
+
+
+
+*/
+
+
+
+//function 
+const funs = function(){
+    console.log("this is a print by function");
+};
+
+
+console.log(funs());
