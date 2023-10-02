@@ -15,4 +15,5 @@ console.log(hundrade.toLocaleString('en-IN'))  //comma in indian standered
 
 console.log(Math)
 console.log(Math.abs(-4));  // abs (abslute) always give positive number its convert negitive inti positive
-console.log(Math.round(4.8888));  // round fuction conver decimal number to 
+console.log(Math.round(4.8888));  // round fuction conver decimal number to full number
+
