@@ -1,14 +1,5 @@
-const user = {
-    username : "abhay",
-    price : 9999,
-    welcomemassage: function(){
-        console.log(`${this.username}`)
-        console.log(this)
-    }
+const arr1 = (num1 ,num2) => {
+    return(num1 + num2)
 }
+console.log(arr1 (54 ,64))
 
-
-user.welcomemassage()
-user.username = "sam"
-// console.log(user())
-console.log(this);
