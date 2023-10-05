@@ -63,3 +63,23 @@ console.log(anyfun(2 , 3))
 //console.log(username + "  " + web2); // it can not access becasuse its scope is not there
 
 // console.log(username); // it can not access becasuse its scope is not there
+
+
+//// *****************      intersting       ******************
+
+console.log(addtuwnumber(2 , 4));
+
+function addtuwnumber (num1 , num2){
+    return num1+num2
+}
+console.log(addtuwnumber(2 , 4));
+
+
+
+// expresion function
+const addtuwnumber2 = function(num3 , num4){
+    return(num3+num4)
+
+}
+
+console.log(addtuwnumber2(5 ,2));
