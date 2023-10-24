@@ -16,9 +16,9 @@ console.log(num2);
 
 
 //****************************---Turnery Operator---********************************
-
+// condition ?? : true : false ;  // syntex form
 const iceTea = 100
-iceTea<=50 ? console.log("iceTea price in less then 50") : console.log("iceTeam price is more then 50");;
+iceTea<=50 ? console.log("iceTea price in less then 50") : console.log("iceTeam price is more then 50");
 
 
 
