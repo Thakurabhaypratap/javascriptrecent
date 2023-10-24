@@ -29,7 +29,7 @@ if(temprature<=50 ){
     console.log("you can survive because tampurate is less then 50");
 }else{
     console.log("you can not survived because temprature is over 50");
-}
+};
 
 
 let balance = 100
@@ -49,7 +49,7 @@ if(bal2<100){
     console.log("this is less then 500");
 }else{
     console.log("this is upper then 500");
-}
+};
 
 
 
@@ -60,7 +60,7 @@ const con1 = true
 const con3=true
 if(con1 && con2 && con3){ //in && and operator all value must will be true then function run
     console.log("in && and operator all value must will be true then function run");
-}
+};
 
 
 
@@ -69,7 +69,7 @@ const con5 = false
 const con6=false
 if(con4 || con5 || con6){ //in || or operator any one value must will be true then function run
     console.log("in || or operator anu one value must will be true then function run");
-}
+};
 
 
 
@@ -95,4 +95,54 @@ switch (mounth) {
     default:
         console.log("youn are late");
         break;
-}
+};
+
+const email = "xyx@gmail.com"
+if(email){
+    console.log("email is exist");
+}else{
+    console.log("email is ot nexist");
+    
+};
+
+const email2 = null
+if(email2){
+    console.log("email is exist");
+}else{
+    console.log("email is ot nexist");
+    
+};
+
+const email3 = undefined
+if(email3){
+    console.log("email is exist");
+}else{
+    console.log("email is ot nexist");
+    
+};
+
+
+// ************************--nullish_coalescing_Operator(??) : null , undefine --***********************
+
+let  num1;
+num1 = 5 ?? 10
+
+console.log(num1);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
