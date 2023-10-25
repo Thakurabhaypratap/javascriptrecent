@@ -58,7 +58,7 @@ any2.set('IN' , 'india') //will not be print becasuse it is a duplicate vale and
 any2.set('usa' , 'amrica')
 any2.set('fr' , 'france')
 console.log(any2);
-console.log(any.get("IN"));
+console.log(any2.get("IN"));
 // Expected output: india   
 
 
@@ -74,6 +74,26 @@ const obj1 ={
     py: "python"
 }
 
-for (const aaa of obj1) {
-    console.log(aaa);
+// for (const aaa of obj1) {
+//     console.log(aaa);     /// we can not ittrate ab object with for of lopp we need to use forin 
+// }
+
+for (const i in obj1) {  // with the use of forin loop we cam iittrate a object
+    console.log(i);
+    console.log(obj1[i]);
+    console.log(`key of the ${i}  value is :- ${obj1[i]}`);
+}
+
+// forof and for in looop  use with array
+const programming = [ "python" , "solidity" , "javasript" , "css" , "html"]
+for (const ii of programming) {     // it is work with forof
+    console.log(ii);
+}
+
+for (const iii in programming) {  // is work with forin but it is give key value 
+    console.log(iii);
+}
+
+for (const iii in programming) {
+    console.log(programming[iii]); // now it is give value
 }
