@@ -69,3 +69,5 @@ programming.forEach(anything)
 // arrobj.forEach((item => {
 //     console.log(item.exantion);
 // }));
+
+g
