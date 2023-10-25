@@ -41,31 +41,31 @@ programming.forEach(anything)
 
 
 
-const arrobj =[
-    {
-        language:'pyhon',
-        exantion:'py'
-    },
-    {
-        language:'javascript',
-        exantion:'js'
-    },
-    {
-        language:'HTML',
-        exantion:'html'
-    },
-    {
-        language:'CSS',
-        exantion:'css'
-    }
-]
+// const arrobj =[
+//     {
+//         language:'pyhon',
+//         exantion:'py'
+//     },
+//     {
+//         language:'javascript',
+//         exantion:'js'
+//     },
+//     {
+//         language:'HTML',
+//         exantion:'html'
+//     },
+//     {
+//         language:'CSS',
+//         exantion:'css'
+//     }
+// ]
         
-arrobj.forEach((item => {
-    console.log(item);
-}));
-arrobj.forEach((item => {
-    console.log(item.language);
-}));
-arrobj.forEach((item => {
-    console.log(item.exantion);
-}));
+// arrobj.forEach((item => {
+//     console.log(item);
+// }));
+// arrobj.forEach((item => {
+//     console.log(item.language);
+// }));
+// arrobj.forEach((item => {
+//     console.log(item.exantion);
+// }));
