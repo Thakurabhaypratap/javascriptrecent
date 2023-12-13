@@ -12,3 +12,12 @@ do{
     console.log("this is do whileloop")
     m++
 }while(m<10)
+
+
+array = ["supermen" , "spidermen" , "batmen"]
+
+let arr = 0 
+while (arr < array.length) {
+    console.log(`value is ${array[arr]}`);
+    arr = arr + 1
+}
