@@ -1,7 +1,7 @@
 
 // ************************--nullish_coalescing_Operator(??) : null , undefine --***********************
 
-let  num1;
+let  num1;   
 num1 = 5 ?? 10
 
 console.log(num1);
@@ -16,7 +16,7 @@ console.log(num2);
 
 
 //****************************---Turnery Operator---********************************
-// condition ?? : true : false ;  // syntex form
+// condition ? : true : false ;  // syntex form
 const iceTea = 100
 iceTea<=50 ? console.log("iceTea price in less then 50") : console.log("iceTeam price is more then 50");
 
