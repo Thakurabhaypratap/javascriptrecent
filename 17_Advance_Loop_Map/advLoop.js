@@ -97,3 +97,39 @@ for (const iii in programming) {  // is work with forin but it is give key value
 for (const iii in programming) {
     console.log(programming[iii]); // now it is give value
 }
+
+
+
+
+
+// for of loop
+
+arr2 = ["abhay" , "ajit" , "sugga" , "hero" , "pramod" , "hiralal" , "sunita"] 
+
+for (const iterator of arr2) {
+    console.log(iterator);
+}
+
+
+str1 = "ThakurAbhayPratapSingh"
+for( str of str1){
+    console.log(str);
+}
+
+
+
+// for of with loop and map
+
+const map11 = new Map()
+map11.set("Ch" , "China")
+map11.set("Uk" , "United_kingdom")
+map11.set("Pok" , "pakistan")
+map11.set("IN" , "india")
+
+for( [key , value] of map11){
+    console.log(key ,  value);
+}
+
+
+
+

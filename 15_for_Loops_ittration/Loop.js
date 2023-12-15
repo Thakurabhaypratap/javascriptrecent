@@ -42,4 +42,15 @@ for(i=0; i<arr1.length ; i++){
 
 
 
+arr2 = ["abhay" , "ajit" , "sugga" , "hero" , "pramod" , "hiralal" , "sunita"] 
+
+for (const iterator of arr2) {
+    console.log(iterator);
+}
+
+
+str1 = "ThakurAbhayPratapSingh"
+for( str of str1){
+    console.log(str);
+}
 

@@ -9,6 +9,9 @@ switch (mounth) {
     case 3:
         console.log("march");
         break;
+    case "apr":
+        console.log("aprail");
+        break;
     default:
         break;
 }

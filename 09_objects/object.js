@@ -1,4 +1,4 @@
-/*
+
 // singleton
 // object literals
 const symkey = Symbol("no1");
@@ -69,7 +69,6 @@ const obj10 = {...obj11 , ...obj22 , ...obj4}  // simple and easy way to mearge 
 console.log(obj10)
 
 
-*/
 
 
 
