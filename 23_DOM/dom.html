@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Monlupation</title>
+    <script src="dom.js"></script>
+    <style>
+        .bodyclass{
+            background-color: black;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body class ="bodyclass">
+    <div class="bg-black">
+        <h1 class="heading">
+            Dom Learning
+        </h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla corporis veritatis commodi nisi eveniet quidem, fugit aperiam natus veniam ducimus totam voluptatum odit reiciendis delectus modi sint, autem quae deleniti?</p>
+    </div>
+
+
+    <div class="vector-page-toolbar">
+        <div class="vector-page-toolbar-container">
+            <div id="left-navigation">
+                <nav aria-label="Namespaces">
+                    
+<div id="p-associated-pages" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-associated-pages">
+<div class="vector-menu-content">
+
+<ul class="vector-menu-content-list">
+
+<li id="ca-nstab-main" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/JavaScript" title="View the content page [ctrl-option-c]" accesskey="c"><span>Article</span></a></li><li id="ca-talk" class="vector-tab-noicon mw-list-item"><a href="/wiki/Talk:JavaScript" rel="discussion" title="Discuss improvements to the content page [ctrl-option-t]" accesskey="t"><span>Talk</span></a></li>
+</ul>
+
+</div>
+</div>
+
+                    
+<div id="p-variants" class="vector-dropdown emptyPortlet">
+<input type="checkbox" id="p-variants-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-p-variants" class="vector-dropdown-checkbox " aria-label="Change language variant">
+<label id="p-variants-label" for="p-variants-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet" aria-hidden="true"><span class="vector-dropdown-label-text">English</span>
+</label>
+<div class="vector-dropdown-content">
+
+
+        
+<div id="p-variants" class="vector-menu mw-portlet mw-portlet-variants emptyPortlet">
+<div class="vector-menu-content">
+
+<ul class="vector-menu-content-list">
+
+
+</ul>
+
+</div>
+</div>
+
+    
+</div>
+</div>
+
+                </nav>
+            </div>
+            <div id="right-navigation" class="vector-collapsible">
+                <nav aria-label="Views">
+                    
+<div id="p-views" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-views">
+<div class="vector-menu-content">
+
+<ul class="vector-menu-content-list">
+
+<li id="ca-view" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/JavaScript"><span>Read</span></a></li><li id="ca-viewsource" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=JavaScript&amp;action=edit" title="This page is protected.
+You can view its source [ctrl-option-e]" accesskey="e"><span>View source</span></a></li><li id="ca-history" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=JavaScript&amp;action=history" title="Past revisions of this page [ctrl-option-h]" accesskey="h"><span>View history</span></a></li>
+</ul>
+
+</div>
+</div>
+
+                </nav>
+    
+                <nav class="vector-page-tools-landmark" aria-label="Page tools">
+                    
+<div id="vector-page-tools-dropdown" class="vector-dropdown vector-page-tools-dropdown">
+<input type="checkbox" id="vector-page-tools-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-page-tools-dropdown" class="vector-dropdown-checkbox " aria-label="Tools">
+<label id="vector-page-tools-dropdown-label" for="vector-page-tools-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet" aria-hidden="true"><span class="vector-dropdown-label-text">Tools</span>
+</label>
+<div class="vector-dropdown-content">
+
+
+                        <div id="vector-page-tools-unpinned-container" class="vector-unpinned-container">
+            
+<div id="vector-page-tools" class="vector-page-tools vector-pinnable-element">
+<div class="vector-pinnable-header vector-page-tools-pinnable-header vector-pinnable-header-unpinned" data-feature-name="page-tools-pinned" data-pinnable-element-id="vector-page-tools" data-pinned-container-id="vector-page-tools-pinned-container" data-unpinned-container-id="vector-page-tools-unpinned-container" data-saved-pinned-state="false">
+<div class="vector-pinnable-header-label">Tools</div>
+<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-page-tools.pin">move to sidebar</button>
+<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-page-tools.unpin">hide</button>
+</div>
+
+
+<div id="p-cactions" class="vector-menu mw-portlet mw-portlet-cactions emptyPortlet vector-has-collapsible-items" title="More options">
+<div class="vector-menu-heading">
+Actions
+</div>
+<div class="vector-menu-content">
+
+<ul class="vector-menu-content-list">
+
+<li id="ca-more-view" class="selected vector-more-collapsible-item mw-list-item"><a href="/wiki/JavaScript"><span>Read</span></a></li><li id="ca-more-viewsource" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=JavaScript&amp;action=edit"><span>View source</span></a></li><li id="ca-more-history" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=JavaScript&amp;action=history"><span>View history</span></a></li>
+</ul>
+
+</div>
+</div>
+
+<div id="p-tb" class="vector-menu mw-portlet mw-portlet-tb">
+<div class="vector-menu-heading">
+General
+</div>
+<div class="vector-menu-content">
+
+<ul class="vector-menu-content-list">
+
+<li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Special:WhatLinksHere/JavaScript" title="List of all English Wikipedia pages containing links to this page [ctrl-option-j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Special:RecentChangesLinked/JavaScript" rel="nofollow" title="Recent changes in pages linked from this page [ctrl-option-k]" accesskey="k"><span>Related changes</span></a></li><li id="t-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [ctrl-option-u]" accesskey="u"><span>Upload file</span></a></li><li id="t-specialpages" class="mw-list-item"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [ctrl-option-q]" accesskey="q"><span>Special pages</span></a></li><li id="t-permalink" class="mw-list-item"><a href="https://en.wikipedia.org/w/index.php?title=JavaScript&amp;oldid=1191491830" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=JavaScript&amp;action=info" title="More information about this page"><span>Page information</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=JavaScript&amp;id=1191491830&amp;wpFormIdentifier=titleform" title="Information on how to cite this page"><span>Cite this page</span></a></li><li id="t-urlshortener" class="mw-list-item"><a href="/w/index.php?title=Special:UrlShortener&amp;url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FJavaScript" aria-haspopup="dialog"><span>Get shortened URL</span></a></li><li id="t-wikibase" class="mw-list-item"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q2005" title="Structured data on this page hosted by Wikidata [ctrl-option-g]" accesskey="g"><span>Wikidata item</span></a></li>
+<li class="mw-list-item mw-list-item-js" id="wbc-editpage"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q2005#sitelinks-wikipedia" title="Edit interlanguage links"><span>Edit interlanguage links</span></a></li><li class="mw-list-item mw-list-item-js" id="t-collapsible-toggle-all"><a href="#" title="Expand all collapsible elements on the current page" role="button" aria-expanded="false"><span>Expand all</span></a></li></ul>
+
+</div>
+</div>
+
+<div id="p-coll-print_export" class="vector-menu mw-portlet mw-portlet-coll-print_export">
+<div class="vector-menu-heading">
+Print/export
+</div>
+<div class="vector-menu-content">
+
+<ul class="vector-menu-content-list">
+
+<li id="coll-download-as-rl" class="mw-list-item"><a href="/w/index.php?title=Special:DownloadAsPdf&amp;page=JavaScript&amp;action=show-download-screen" title="Download this page as a PDF file"><span>Download as PDF</span></a></li><li id="t-print" class="mw-list-item"><a href="/w/index.php?title=JavaScript&amp;printable=yes" title="Printable version of this page [ctrl-option-p]" accesskey="p"><span>Printable version</span></a></li>
+</ul>
+
+</div>
+</div>
+
+<div id="p-wikibase-otherprojects" class="vector-menu mw-portlet mw-portlet-wikibase-otherprojects">
+<div class="vector-menu-heading">
+In other projects
+</div>
+<div class="vector-menu-content">
+
+<ul class="vector-menu-content-list">
+
+<li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Category:JavaScript" hreflang="en"><span>Wikimedia Commons</span></a></li><li class="wb-otherproject-link wb-otherproject-mediawiki mw-list-item"><a href="https://www.mediawiki.org/wiki/JavaScript" hreflang="en"><span>MediaWiki</span></a></li><li class="wb-otherproject-link wb-otherproject-wikibooks mw-list-item"><a href="https://en.wikibooks.org/wiki/JavaScript" hreflang="en"><span>Wikibooks</span></a></li><li class="wb-otherproject-link wb-otherproject-wikifunctions mw-list-item"><a href="https://www.wikifunctions.org/wiki/Z600" hreflang="en"><span>Wikifunctions</span></a></li><li class="wb-otherproject-link wb-otherproject-wikiversity mw-list-item"><a href="https://en.wikiversity.org/wiki/JavaScript_Programming" hreflang="en"><span>Wikiversity</span></a></li>
+</ul>
+
+</div>
+</div>
+
+</div>
+
+                        </div>
+    
+</div>
+</div>
+
+                </nav>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="p">
+        <p>
+            <header>
+                <h1>The Power of JavaScript</h1>
+                <p>JavaScript, often abbreviated as JS, is a powerful programming language that plays a pivotal role in web development. It is a versatile scripting language that enables developers to create dynamic and interactive web pages.</p>
+            </header>
+        
+            <section>
+                <h2>Introduction to JavaScript</h2>
+                <p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction" target="_blank">JavaScript</a> is a high-level, interpreted programming language that conforms to the ECMAScript specification. Originally developed by Netscape, it has become one of the core technologies of the World Wide Web alongside HTML and CSS.</p>
+        
+                <h3>Key Features</h3>
+                <ul>
+                    <li><strong>Client-Side Scripting:</strong> JavaScript is primarily used for client-side scripting, allowing developers to create dynamic content that responds to user actions without requiring a page reload.</li>
+                    <li><strong>Cross-Platform:</strong> It is supported by all major browsers, making it a cross-platform language that runs on various devices.</li>
+                    <li><strong>Object-Oriented:</strong> JavaScript is an object-oriented language, supporting concepts like encapsulation and inheritance.</li>
+                </ul>
+            </section>
+        
+            <section>
+                <h2>Basic JavaScript Syntax</h2>
+                <p>Writing JavaScript involves using the <code>&lt;script&gt;</code> tag in HTML. You can include it in the <code>&lt;head&gt;</code> or <code>&lt;body&gt;</code> of your HTML document. Here's a simple example:</p>
+                <pre>
+        <code>
+        &lt;script&gt;
+            // JavaScript code goes here
+            var message = "Hello, World!";
+            alert(message);
+        &lt;/script&gt;
+        </code>
+                </pre>
+                <p>This script displays an alert with the message "Hello, World!" when the page loads.</p>
+            </section>
+        
+            <section>
+                <h2>DOM Manipulation</h2>
+                <p>The Document Object Model (DOM) is a crucial aspect of JavaScript. It represents the structure of a document as a tree of objects. Developers can manipulate the DOM to dynamically change the content and structure of a web page.</p>
+                <p>For instance, the following script changes the text of an HTML element with the id "demo":</p>
+                <pre>
+        <code>
+        &lt;script&gt;
+            document.getElementById("demo").innerHTML = "New Content";
+        &lt;/script&gt;
+        </code>
+                </pre>
+            </section>
+        
+            <section>
+                <h2>Event Handling</h2>
+                <p>JavaScript allows developers to respond to user actions through event handling. Common events include clicks, mouse movements, and keyboard inputs. Here's a simple example of an onclick event:</p>
+                <pre>
+        <code>
+        &lt;button onclick="myFunction()"&gt;Click me&lt;/button&gt;
+        
+        &lt;script&gt;
+            function myFunction() {
+                alert("Button clicked!");
+            }
+        &lt;/script&gt;
+        </code>
+                </pre>
+            </section>
+        
+            <footer>
+                <p>JavaScript is a dynamic and versatile language that continues to evolve, enabling developers to build modern and interactive web applications. As you delve deeper into JavaScript, explore frameworks like <a href="https://reactjs.org/" target="_blank">React</a> and <a href="https://vuejs.org/" target="_blank">Vue.js</a> for building sophisticated user interfaces.</p>
+            </footer>
+        </p>
+    </div>
+    
+
+
+
+
+
+
+
+    
+</body>
+</html>

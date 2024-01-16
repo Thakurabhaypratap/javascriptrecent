@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="dom3.js"></script>
+</head>
+
+
+
+<body style="background-color: black ; color:aliceblue ;">
+    <div class="week">
+        <div class="day">sunday
+            <div class="12hourAM">sun</div>
+            <div class="12hourPM">moon</div>
+        </div>
+
+        <div class="day">monday</div>
+        <div class="day">thrusday</div>
+        <div class="day">wednesday</div>
+        <div class="day">thrusday</div>
+        <div class="day">friday</div>
+        <div class="day">saturday</div>
+    </div>
+    
+</body>
+
+<script>
+
+    const parent = document.querySelector('.week')
+    console.log(parent);
+    console.log(parent.children) //array return with all children value htmlcollection
+    const sty = parent.children[1].style.color = 'red'
+    const cc = document.querySelectorAll('.day')  //nodelist arry
+    console.log(cc)
+    console.log(cc[1].innerHTML);
+
+    for(i =0; i<cc.length; i++){
+        console.log(cc[i].innerHTML)
+    };
+
+    const dd = (parent.childNodes);
+    console.log(dd);
+    console.log(parent.childNodes);
+
+
+
+
+    const div  = document.createElement('div')
+    console.log(div)
+    div.innerText = "this div and txt created by js"
+    document.body.appendChild(div)
+    div.className = "clsss"
+    div.setAttribute('titlee' , 'thakur_abhay_creator')
+    div.style.backgroundColor = "green"
+    div.id = Math.round(Math.random()*10)
+    console.log(div.id)
+    
+    //const xxx = document.getElementsByClassName("clsss")
+    //console.log(xxx)
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+</html>
