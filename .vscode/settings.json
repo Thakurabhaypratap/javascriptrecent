@@ -1,5 +1,8 @@
 {
     "window.title": "Devloper Thakur Abhay",
     "terminal.integrated.tabs.title": "Territory Of Thakur Abhay ",
-    "files.autoSave": "afterDelay"
+    "files.autoSave": "afterDelay",
+    "docwriter.style": "Google",
+    "docwriter.progress.trackTypes": true,
+    "docwriter.progress.trackClasses": true
 }

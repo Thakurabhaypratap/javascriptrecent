@@ -1,9 +1,10 @@
-const parent = document.querySelectorAll(".parent")
-console.log(parent);
-// 
-const wee = document.querySelector(".week")
-console.log(wee);
-console.log(wee.children);
+
+// const parent = document.querySelectorAll(".parent")
+// console.log(parent);
+// // 
+// const wee = document.querySelector(".week")
+// console.log(wee);
+// console.log(wee.children);
 // // 
 // // 
 // // 

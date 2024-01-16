@@ -10,7 +10,7 @@
 
 
 <body style="background-color: black ; color:aliceblue ;">
-    <div class="week">
+    <div class="week" id="week">
         <div class="day">sunday
             <div class="12hourAM">sun</div>
             <div class="12hourPM">moon</div>
@@ -26,7 +26,7 @@
     
 </body>
 
-<script>
+<!-- <script>
 
     const parent = document.querySelector('.week')
     console.log(parent);
@@ -59,9 +59,10 @@
     
     //const xxx = document.getElementsByClassName("clsss")
     //console.log(xxx)
-    
-    
-    
+
+
+
+</script> -->
 
 
 
@@ -69,11 +70,47 @@
 
 
 
+
+
+
+
+
+
+
+
+<script>
+
+
+
+
+
+
+
+    // const aa = document.getElementsByClassName('week')
+    // bb = aa.children[1]
+    // console.log(bb);
+    // const cc = document.getElementById('week') 
+    // dd = cc.childNodes  // childnode take space like a nek and txt
+    // ee = cc.children[0].innerHTML
+    // console.log(cc);
+    // console.log(dd);
+    // console.log(ee);
+
+
+// <!-- The code is creating a new `<div>` element using the `document.createElement()` method. It then sets
+// the inner text of the newly created `<div>` to "this div and txt created by js". -->
+    const ff = document.createElement('div');
+    console.log(ff);
+    ff.innerText = "this div and txt created by js"
+    document.body.appendChild(ff);
+    gg = ff.parentElement
+    hh = ff.parentNode
+    console.log(gg);
+    console.log(hh);
 
 
 
 
 
 </script>
-
 </html>
