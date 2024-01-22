@@ -24,12 +24,8 @@ form.addEventListener('submit' , function(e){
         console.log(result.innerHTML =  (weight / ((height * height) / 10000)).toFixed(2));
         console.log(result);
     }
-     
 
-
-
-
-})
+});
 
 
 
