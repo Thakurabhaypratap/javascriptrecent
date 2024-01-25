@@ -17,6 +17,4 @@ window.addEventListener('keydown' , function(e) {
         </tr>
     </table>
     </div>`
-
-
 })
