@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+
+<script>
+
+
+    let add_element = () => {
+        const template = document.createElement('div');   
+        template.innerHTML = "Content inside DIV";
+        
+        document.body.appendChild(template);  
+    }
+    
+    add_element();
+
+
+
+
+    const aa = document.createElement("div");
+aa.innerHTML = "<h1>thakur pramod kumar singh</h1>"
+
+aa.setAttribute('id' , 'father')
+
+
+console.log(aa.innerHTML)
+console.log(aa.id)
+
+
+document.body.appendChild(aa)
+
+    
+
+</script>
+
+
+</html>
