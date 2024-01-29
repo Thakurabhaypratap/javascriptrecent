@@ -85,7 +85,7 @@ or you can
 <!-- ************       image   ![alt txt](url)   *********** -->
 
 
-![Tux, the Linux mascot](/1675615427498.jpg)
+![Tux, the Linux mascot](./images/abhay.jpg)
 
 
 
