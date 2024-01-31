@@ -12,6 +12,9 @@ class employees{
     requestforleves(y){
         console.log(`${this.name} request for leves for ${y} days`);
     }
+    static id(){  // use static to control access
+        console.log(Math.random()*100);
+    }
 }
 
 
