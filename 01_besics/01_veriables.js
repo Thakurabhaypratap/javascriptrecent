@@ -3,6 +3,7 @@
 let namm = "anything1"
 let namm2 = "anything2"
 namm2 = "anything3"
+console.log("test");
 
 
 nam = "abhay singh"
